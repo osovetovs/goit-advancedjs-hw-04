@@ -8,12 +8,12 @@
     <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CNqCr-V-.js">
     <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CWKLx11g.css">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-4Q_I_Smo.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-1ZwIoCAd.css">
   </head>
   <body>
     <header>
       <h1>Search App</h1>
-      <form id="search-form">
+      <form id="search-form" class="form">
         <input
           type="text"
           name="searchQuery"
@@ -25,13 +25,9 @@
     </header>
 
     <main>
-      <div class="gallery"></div>
-      <div class="load-more-container">
-        <div id="loader" class="loader hidden">
-          <div class="lds-dual-ring"></div>
-        </div>
-        <button class="load-more hidden">Load more</button>
-      </div>
+      <ul class="gallery"></ul>
+      <span class="loader hidden"></span>
+      <button class="load-more hidden">Load more</button>
     </main>
 
   </body>
