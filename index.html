@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search App</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CNqCr-V-.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-4Q_I_Smo.css">
+  </head>
+  <body>
+    <header>
+      <h1>Search App</h1>
+      <form id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          placeholder="Search images..."
+          autocomplete="off"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+
+    <main>
+      <div class="gallery"></div>
+      <div class="load-more-container">
+        <div id="loader" class="loader hidden">
+          <div class="lds-dual-ring"></div>
+        </div>
+        <button class="load-more hidden">Load more</button>
+      </div>
+    </main>
+
+  </body>
+</html>
